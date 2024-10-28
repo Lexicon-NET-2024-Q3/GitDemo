@@ -8,7 +8,7 @@ namespace GitDemo
 {
     internal class NewClass
     {
-        public string Name { get; set; }
+        public string Banan { get; set; }
 
     }
 
