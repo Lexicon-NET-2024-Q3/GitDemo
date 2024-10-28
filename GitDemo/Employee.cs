@@ -13,4 +13,8 @@ internal class Employee
         Name = name;
     }
 
+    public void Test()
+    {
+        Console.WriteLine("Test"); 
+    }
 }
