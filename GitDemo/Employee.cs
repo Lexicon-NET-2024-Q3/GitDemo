@@ -8,12 +8,20 @@ namespace GitDemo;
 internal class Employee
 {
     public string Name { get; }
-    public Employee(string name)
+    public int Age { get; }
+
+    public Employee(string name, int age)
     {
         Name = name;
+        Age = age;
     }
 
     public void Test()
+    {
+        Console.WriteLine("Test"); 
+    } 
+    
+    public void Test2()
     {
         Console.WriteLine("Test"); 
     }
