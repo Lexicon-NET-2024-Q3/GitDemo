@@ -10,15 +10,16 @@ internal class Employee
     public string Name { get; }
     public int Age { get; }
 
-    public Employee(string name, int age)
+    public Employee(string name, int age, int salary)
     {
         Name = name;
-        Age = age;
+        Age = age;     
     }
 
     public void Test()
     {
-        Console.WriteLine("Test"); 
+        Console.WriteLine("Test");
+        Console.WriteLine("Testar3");
     } 
     
     public void Test2()

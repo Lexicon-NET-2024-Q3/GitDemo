@@ -9,7 +9,7 @@ namespace GitDemo
     internal class NewClass
     {
         public string Name { get; set; }
-
+        public int NewProperty { get; set; }
     }
 
 }
