@@ -16,8 +16,10 @@ internal class Employee
         Age = age;
     }
 
-    public void Banan()
+    public void Test()
     {
+        Console.WriteLine("Test");
+        Console.WriteLine("Testar3");
         Console.WriteLine("Test2"); 
         Console.WriteLine("Test2"); 
         Console.WriteLine("Test2"); 

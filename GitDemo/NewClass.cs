@@ -8,8 +8,8 @@ namespace GitDemo
 {
     internal class NewClass
     {
-        public string Banan { get; set; }
-
+        public string Name { get; set; }
+        public int NewProp { get; set; }
     }
 
 }
